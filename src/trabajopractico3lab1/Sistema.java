@@ -77,6 +77,9 @@ public class Sistema extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Castellar", 1, 18)); // NOI18N
         jLabel1.setText("Ingreso Al Sistema");
 
+        JTFPassword.setBackground(new java.awt.Color(153, 0, 153));
+
+        JTFUsuario.setBackground(new java.awt.Color(0, 102, 102));
         JTFUsuario.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 JTFUsuarioActionPerformed(evt);
